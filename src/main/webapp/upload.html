@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Загрузка файла</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/upload.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="javascript/upload.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+</head>
+<body>
+<p class="logout-button btn btn-lg btn-block">Выход</p>
+
+<div class="file-form">
+  <p>Загрузите файл в формате xls или csv</p>
+  <input id="file-input" type="file" value="Обзор" multiple="multiple" accept=".xls, .csv">
+  <input type="button" value="Загрузить файл" class="upload-button btn btn-lg btn-block"/>
+</div>
+
+<form method="post" action="uploadFile" enctype="multipart/form-data">
+  <label for="file-test">Choose file to upload</label>
+  <input id="file-test" type="file" value="Обзор" multiple="multiple" name="file" accept=".xls, .csv">
+  <button>Грузать файлик!</button>
+</form>
+</body>
+</html>
