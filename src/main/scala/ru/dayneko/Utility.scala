@@ -1,4 +1,4 @@
-package com.altuera
+package ru.dayneko
 
 import com.typesafe.config.{Config, ConfigFactory}
 

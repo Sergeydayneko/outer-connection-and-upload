@@ -1,4 +1,4 @@
-package com.altuera
+package ru.dayneko
 
 import java.io._
 import java.nio.file.{Files, Path, Paths}

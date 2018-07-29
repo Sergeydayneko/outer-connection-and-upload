@@ -1,4 +1,4 @@
-package com.altuera
+package ru.dayneko
 
 import javax.servlet._
 import javax.servlet.FilterConfig
